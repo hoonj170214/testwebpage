@@ -1,0 +1,88 @@
+*{
+  margin: 0;
+  border: 0px;
+  padding: 0;   
+  background-color: rgb(42, 42, 44);
+}
+main{
+  display: grid;
+  grid-template-columns: 0.5fr 0.5fr;
+}
+header, article,footer{
+  color: rgb(213, 211, 211);
+}
+
+.props{
+  margin: 0px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  list-style-type: none;
+}
+ .popular, .asia, .europe{
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+article .inputs{
+  margin: 10px;
+  padding: 10px;
+}
+
+div .container-fluid{
+  display: flex;
+  flex-flow: row nowrap;
+  text-align: left;
+  justify-content:left;
+}
+
+div .navbar-brand{
+  color: rgb(213, 211, 211);
+  margin: 0px 5px 0px 0px;
+  padding: 0px;
+}
+
+div .container-fluid{
+  display: flex;
+  align-items:center;
+  justify-content: center;
+ 
+}
+
+button{
+  color: rgb(213, 211, 211);
+}
+
+li .nav-item:hover{
+  color: green;
+}
+
+
+.nav-item >a{
+  
+  color : rgb(213, 211, 211);
+}
+
+main{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  display: grid;
+}
+
+h2{
+font-size: 1.5em;
+font-weight: 900;
+}
+
+main .langList{
+  color : rgb(213, 211, 211);
+}
+
+h3{
+  color : rgb(213, 211, 211);
+
+}
